@@ -58,6 +58,7 @@ class CfgRemoteExec {
         F(life_fnc_vehicleAnimate,CLIENT)
         F(life_fnc_wantedList,CLIENT)
         F(life_fnc_wireTransfer,CLIENT)
+        F(life_fnc_setupCellPhone,CLIENT)
         F(SOCK_fnc_dataQuery,CLIENT)
         F(SOCK_fnc_insertPlayerInfo,CLIENT)
         F(SOCK_fnc_requestReceived,CLIENT)
@@ -75,6 +76,9 @@ class CfgRemoteExec {
         F(DB_fnc_queryRequest,SERVER)
         F(DB_fnc_updatePartial,SERVER)
         F(DB_fnc_updateRequest,SERVER)
+        F(DB_fnc_cellPhoneRequest,SERVER)
+        F(DB_fnc_saveCellPhone,SERVER)	
+        F(DB_fnc_getRealTime,SERVER)
         F(life_fnc_jailSys,SERVER)
         F(life_fnc_wantedAdd,SERVER)
         F(life_fnc_wantedBounty,SERVER)
@@ -144,6 +148,8 @@ class CfgRemoteExec {
         F(HC_fnc_wantedFetch,HC)
         F(HC_fnc_wantedProfUpdate,HC)
         F(HC_fnc_wantedRemove,HC)
+        F(HC_fnc_cellPhoneRequest,HC)
+        F(HC_fnc_saveCellPhone,HC)
 
         /* Functions for everyone */
         F(BIS_fnc_effectKilledAirDestruction,ANYONE)

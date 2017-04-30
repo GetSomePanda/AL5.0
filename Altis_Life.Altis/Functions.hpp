@@ -34,6 +34,16 @@ class Life_Client_Core {
         class survival {};
         class welcomeNotification {};
     };
+    
+    class CellPhone {
+		file = "core\cellphone";
+		class cellPhoneCheck {};
+		class setupCellPhone {};
+		class messagesMenu {};
+		class lbChanged {};
+		class deleteMessage {};
+		class replyMessage {};
+	};
 
     class Actions {
         file = "core\actions";

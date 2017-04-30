@@ -231,7 +231,8 @@ class SpyGlass {
         "life_fnc_vehtakeitem","life_fnc_vehtakeitem_meta","life_fnc_vinteractionmenu","life_fnc_vinteractionmenu_meta","life_fnc_virt_buy","life_fnc_virt_buy_meta","life_fnc_virt_menu","life_fnc_virt_menu_meta","life_fnc_virt_sell","life_fnc_virt_sell_meta","life_fnc_virt_update","life_fnc_virt_update_meta","life_fnc_wantedadd","life_fnc_wantedadd_meta","life_fnc_wantedaddp","life_fnc_wantedaddp_meta",
         "life_fnc_wantedbounty","life_fnc_wantedbounty_meta","life_fnc_wantedfetch","life_fnc_wantedfetch_meta","life_fnc_wantedgrab","life_fnc_wantedgrab_meta","life_fnc_wantedinfo","life_fnc_wantedinfo_meta","life_fnc_wantedlist","life_fnc_wantedlist_meta","life_fnc_wantedmenu","life_fnc_wantedmenu_meta","life_fnc_wantedperson","life_fnc_wantedperson_meta","life_fnc_wantedpunish","life_fnc_wantedpunish_meta",
         "life_fnc_wantedremove","life_fnc_wantedremove_meta","life_fnc_wantedticket","life_fnc_wantedticket_meta","life_fnc_weaponshopaccs","life_fnc_weaponshopaccs_meta","life_fnc_weaponshopbuysell","life_fnc_weaponshopbuysell_meta","life_fnc_weaponshopcfg","life_fnc_weaponshopcfg_meta","life_fnc_weaponshopfilter","life_fnc_weaponshopfilter_meta","life_fnc_weaponshopmags","life_fnc_weaponshopmags_meta",
-        "life_fnc_weaponshopmenu","life_fnc_weaponshopmenu_meta","life_fnc_weaponshopselection","life_fnc_weaponshopselection_meta","life_fnc_welcomenotification","life_fnc_welcomenotification_meta","life_fnc_whereami","life_fnc_whereami_meta","life_fnc_wiretransfer","life_fnc_wiretransfer_meta"
+        "life_fnc_weaponshopmenu","life_fnc_weaponshopmenu_meta","life_fnc_weaponshopselection","life_fnc_weaponshopselection_meta","life_fnc_welcomenotification","life_fnc_welcomenotification_meta","life_fnc_whereami","life_fnc_whereami_meta","life_fnc_wiretransfer","life_fnc_wiretransfer_meta",
+        "life_fnc_messagesMenu","life_fnc_deleteMessage","life_fnc_lbChanged","life_fnc_cellphonecheck","life_fnc_setupcellphone","life_fnc_replyMessage","life_fnc_messagesMenu_meta","life_fnc_deleteMessage_meta","life_fnc_lbChanged_meta","life_fnc_cellphonecheck_meta","life_fnc_setupcellphone_meta","life_fnc_replyMessage_meta"
     };
 
     SERVER_Functions[] = {
@@ -249,7 +250,8 @@ class SpyGlass {
 
     DB_Functions[] = {
         "db_fnc_asynccall","db_fnc_asynccall_meta","db_fnc_bool","db_fnc_bool_meta","db_fnc_insertrequest","db_fnc_insertrequest_meta","db_fnc_insertvehicle","db_fnc_insertvehicle_meta","db_fnc_mresarray","db_fnc_mresarray_meta","db_fnc_mresstring","db_fnc_mresstring_meta","db_fnc_mrestoarray","db_fnc_mrestoarray_meta","db_fnc_numbersafe","db_fnc_numbersafe_meta","db_fnc_queryrequest","db_fnc_queryrequest_meta",
-        "db_fnc_updatepartial","db_fnc_updatepartial_meta","db_fnc_updaterequest","db_fnc_updaterequest_meta"
+        "db_fnc_updatepartial","db_fnc_updatepartial_meta","db_fnc_updaterequest","db_fnc_updaterequest_meta",
+        "db_fnc_saveCellPhone","db_fnc_cellPhoneRequest","db_fnc_getrealtime","db_fnc_saveCellPhone_meta","db_fnc_cellPhoneRequest_meta","db_fnc_getrealtime_meta"
     };
 
 
@@ -305,7 +307,8 @@ class SpyGlass {
         { "life_session_completed", "BOOL" }, { "license_civ_gun", "BOOL" }, { "license_cop_cair", "BOOL" }, { "kron_strlower", "CODE" }, { "bis_stackedeventhandlers_oneachframe", "ARRAY" }, { "bis_teamswitched", "BOOL" }, { "life_inv_rabbitraw", "SCALAR" }, { "life_inv_defibrillator", "SCALAR" }, { "life_inv_toolkit", "SCALAR" }, { "life_gear", "ARRAY" }, { "life_istazed", "BOOL" }, { "kron_strtoarray", "CODE" },
         { "life_shop_npc", "OBJECT" }, { "life_shop_type", "STRING" }, { "life_deathcamera", "OBJECT" }, { "life_corpse", "OBJECT" }, { "life_admin_debug", "BOOL" }, { "bis_fnc_camera_target", "OBJECT" }, { "bis_fnc_camera_cam", "OBJECT" }, { "bis_fnc_camera_acctime", "SCALAR" }, { "bis_fnc_shownotification_process", "SCRIPT" }, { "bis_fnc_shownotification_counter", "SCALAR" }, { "bis_fnc_shownotification_queue", "ARRAY" },
         { "life_action_spikestrippickup", "SCALAR" }, { "life_container_active", "BOOL" }, { "life_cur_task", "TASK" }, { "life_cur_task", "OBJECT" }, { "life_enablenewsbroadcast", "BOOL" }, { "life_enablesidechannel", "BOOL" }, { "life_fed_scam", "OBJECT" }, { "life_coprecieve", "OBJECT" }, { "life_chopshop", "STRING" }, {"life_civ_position","ARRAY"}, {"life_is_alive","BOOL"}, {"finishedloop","BOOL"}, {"life_fnc_wantedcrimes","CODE"},
-        {"ton_fnc_vehicleupdate","CODE"}, {"ton_fnc_recupkeyforhc","CODE"}, {"ton_fnc_getplaytime","CODE"}, {"ton_fnc_sellhousecontainer","CODE"}, {"ton_fnc_setplaytime","CODE"}, {"life_fnc_wantedprofupdate","CODE"}, {"ton_fnc_deletedbcontainer","CODE"}, {"life_save_civilian_position","BOOL"}, {"ton_fnc_addcontainer","CODE"}, {"ton_fnc_requestclientid","CODE"}, {"life_hideoutbuildings","ARRAY"}
+        {"ton_fnc_vehicleupdate","CODE"}, {"ton_fnc_recupkeyforhc","CODE"}, {"ton_fnc_getplaytime","CODE"}, {"ton_fnc_sellhousecontainer","CODE"}, {"ton_fnc_setplaytime","CODE"}, {"life_fnc_wantedprofupdate","CODE"}, {"ton_fnc_deletedbcontainer","CODE"}, {"life_save_civilian_position","BOOL"}, {"ton_fnc_addcontainer","CODE"}, {"ton_fnc_requestclientid","CODE"}, {"life_hideoutbuildings","ARRAY"},
+        {"life_fnc_replymessage_meta","CODE"}, {"db_fnc_getrealtime","CODE"}, {"life_fnc_replymessage","CODE"}, {"life_fnc_deletemessage","CODE"}, {"life_fnc_messagesmenu","CODE"}, {"life_fnc_lbchanged","CODE"}, {"life_fnc_lbchanged_meta","CODE"}, {"life_fnc_messagesmenu_meta","CODE"}, {"life_fnc_deletemessage_meta","CODE"}, {"db_fnc_savecellphone","CODE"}, {"life_fnc_setupcellphone_meta","CODE"}, {"life_fnc_cellphonecheck_meta","CODE"}, {"db_fnc_cellphonerequest","CODE"}
     };
 
     allowedVariables_UI[] = {

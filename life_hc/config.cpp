@@ -37,6 +37,9 @@ class CfgFunctions
             class cleanup {};
             class huntingZone {};
             class receivekeyofServer {};
+            class cellPhoneRequest {};
+			class getRealTime {};
+			class saveCellPhone {};
         };
 
         class PlayTime
